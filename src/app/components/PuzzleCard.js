@@ -38,7 +38,7 @@ const PuzzleCard = () => {
 
       if (remainingGuesses >= 0) {
           setRemainingGuesses(remainingGuesses - 1);
-          if (guess.toLowerCase() === puzzle.answer.toLowerCase()) {
+          if (guess.toLowerCase().includes(puzzle.answer.toLowerCase())) {
               setGameStatus('win');
               setTimeout(() => {
                   setModalOpen(true);

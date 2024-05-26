@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
                   left: '50%',
                   transform: 'translate(-50%, -50%)',
                   width: '70%',
-                  height: '63%',
+                  height: '67%',
                   maxWidth: 600,
                   overflowY: 'auto',
                   bgcolor: '#fcfaf7',
@@ -59,12 +59,8 @@ export default function RootLayout({ children }) {
                   p: 4,
                 }}
               >
-                <IconButton sx={{ position: 'absolute', top: 8, right: 8 }} onClick={handleHelpModalClose}>
-                  <Close />
-                </IconButton>
-                <Typography variant="h4" gutterBottom>
-                  How to Play! 🧐
-                </Typography>
+                <IconButton sx={{ position: 'absolute', top: 8, right: 8 }} onClick={handleHelpModalClose}><Close /></IconButton>
+                <Typography variant="h4" gutterBottom> How to Play! 🧐 </Typography>
                 <Typography variant="h5" gutterBottom>
                   Try to guess the common link that connects the 3 images on screen.
                 </Typography>
@@ -78,9 +74,10 @@ export default function RootLayout({ children }) {
                   + You have a total of four guesses. After each incorrect guess, a hint will be revealed.
                 </Typography>
                 <Typography>+ The puzzle gets reset daily, so you can play again tomorrow!</Typography>
-                <Typography variant="h5" mt={2} fontWeight={700}>
-                  Examples:
+                <Typography variant="body2" mt={2} fontWeight={700} gutterBottom>
+                  Note: If your answer contains the answer than that will also be accepted 😄
                 </Typography>
+                <Typography variant="h5" mt={2} fontWeight={700}> Examples: </Typography>
                 <Typography variant="body1" mt={2} gutterBottom>
                   1. Images: Mouse Trap, House, Garage
                 </Typography>
@@ -91,7 +88,7 @@ export default function RootLayout({ children }) {
                   2. Images: Calendar date, Jack (Hammer), Dragon
                 </Typography>
                 <Typography variant="body2" mt={2} gutterBottom>
-                  Answer: Types of Fruits 🍉
+                  Answer: Types of Fruit 🍉
                 </Typography>
                 <Typography variant="body1" mt={2} gutterBottom>
                   3. Images: Mullet (Fish), A Pig&apos;s Tail, Buzz Aldrin
