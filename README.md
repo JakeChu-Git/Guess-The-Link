@@ -1,6 +1,6 @@
 # Guess The Link
 
-Guess The Link is a daily puzzle game (wordle esque) where players try to guess the common link that connects three seemingly unrelated images. Each day, a new puzzle is released, and players have four attempts to guess the correct answer. With each incorrect guess, a hint is revealed to help players narrow down the possibilities.
+Guess The Link is a daily puzzle game (wordle esque) where players try to guess the common link that connects three seemingly unrelated images. Each day, a new puzzle is released, and players have four attempts to guess the correct answer. With each incorrect guess, a hint is revealed to help players narrow down the possibilities. The concept of game is heavily inspired by youtube videos of the same.
 
 ## Table of Contents
 

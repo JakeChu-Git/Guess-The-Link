@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
                   left: '50%',
                   transform: 'translate(-50%, -50%)',
                   width: '70%',
-                  height: '67%',
+                  height: '68%',
                   maxWidth: 600,
                   overflowY: 'auto',
                   bgcolor: '#fcfaf7',
@@ -74,10 +74,11 @@ export default function RootLayout({ children }) {
                   + You have a total of four guesses. After each incorrect guess, a hint will be revealed.
                 </Typography>
                 <Typography>+ The puzzle gets reset daily, so you can play again tomorrow!</Typography>
-                <Typography variant="body2" mt={2} fontWeight={700} gutterBottom>
+                <Typography variant="body2" mt={1} fontWeight={700} gutterBottom>
                   Note: If your answer contains the answer than that will also be accepted 😄
                 </Typography>
-                <Typography variant="h5" mt={2} fontWeight={700}> Examples: </Typography>
+                <Typography variant="body2" fontWeight={700} gutterBottom> This game is heavily inspired by youtube videos of the same name.</Typography>
+                <Typography variant="h5" mt={1.5} fontWeight={700}> Examples: </Typography>
                 <Typography variant="body1" mt={2} gutterBottom>
                   1. Images: Mouse Trap, House, Garage
                 </Typography>
