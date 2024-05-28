@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
                   left: '50%',
                   transform: 'translate(-50%, -50%)',
                   width: '70%',
-                  height: '68%',
+                  height: '68.5%',
                   maxWidth: 600,
                   overflowY: 'auto',
                   bgcolor: '#fcfaf7',
