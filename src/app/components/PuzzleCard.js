@@ -93,14 +93,14 @@ const PuzzleCard = () => {
           <Box key={`link-${index}`} mb={4}><LinkIcon /></Box>),
         ])}
       </Box>
-      <Typography variant="body1" align="left" marginLeft={8.5} gutterBottom> Guesses Remaining: {remainingGuesses + 1} / 4 </Typography>
+      <Typography variant="body1" align="center" gutterBottom> Guesses Remaining: {remainingGuesses + 1} / 4 </Typography>
       <Box display="flex" justifyContent="center" alignItems="center">
         <TextField
           label="try a category"
           value={guess}
           onChange={(e) => setGuess(e.target.value)}
           variant="outlined"
-          sx={{ mr: 1.3, width: 300 }}
+          sx={{ mr: 1.3, width: 280 }}
           disabled={gameStatus !== null}
         />
         <Button variant="contained"
