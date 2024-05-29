@@ -36,8 +36,8 @@ export default function RootLayout({ children }) {
           <CssBaseline />
           <AppBar position="static" sx={{ backgroundColor: '#fcfaf7', boxShadow: '1', padding: '0.8rem' }}>
             <Toolbar>
-              <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontSize: 40 }} color={'black'}>
-                Guess The Link
+              <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontSize: 29 }} color={'black'}>
+                GUESS THE LINK
               </Typography>
               <IconButton onClick={handleHelpModalOpen}>
                 <HelpOutline sx={{ color: 'black', height: '45px', width: '45px' }} />
