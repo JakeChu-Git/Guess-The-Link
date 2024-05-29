@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
           <CssBaseline />
           <AppBar position="static" sx={{ backgroundColor: '#fcfaf7', boxShadow: '1', padding: '0.8rem' }}>
             <Toolbar>
-              <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontSize: 29 }} color={'#3F3131'}>
+              <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontSize: 31 }} color={'#3F3131'}>
                 GUESS THE LINK
               </Typography>
               <IconButton onClick={handleHelpModalOpen}>
