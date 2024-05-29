@@ -13,12 +13,13 @@ const theme = createTheme({
     fontFamily: nunito.style.fontFamily,
     h4: {
       fontWeight: 900,
-    },
-    h5: {
-      fontWeight: 800,
+      color: '#3F3131'
     },
     body1: {
       fontWeight: 900,
+    },
+    body2: {
+      fontWeight: 700,
     },
   },
 });

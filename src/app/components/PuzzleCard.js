@@ -85,7 +85,7 @@ const PuzzleCard = () => {
             <div className="image-container">
               <img src={url} alt={`Image ${index + 1}`} />
             </div>
-            <Typography variant="body1" align="center" mt={1} fontSize={25}>
+            <Typography variant="body1" align="center" color={'#3F3131'} mt={1} fontSize={25}>
               {gameStatus || revealedNames[index] ? puzzle.names[index] : '?'}
             </Typography>
           </Box>,
@@ -93,7 +93,7 @@ const PuzzleCard = () => {
           <Box key={`link-${index}`} mb={4}><LinkIcon /></Box>),
         ])}
       </Box>
-      <Typography variant="body1" align="center" gutterBottom> Guesses Remaining: {remainingGuesses + 1} / 4 </Typography>
+      <Typography variant="body1" align="center" color={'#3F3131'} gutterBottom> Guesses Remaining: {remainingGuesses + 1} / 4 </Typography>
       <Box display="flex" justifyContent="center" alignItems="center">
         <TextField
           label="try a category"
@@ -104,11 +104,11 @@ const PuzzleCard = () => {
           disabled={gameStatus !== null}
         />
         <Button variant="contained"
-          sx={{ backgroundColor: 'black', padding: '15.5px 28px', '&:hover': {backgroundColor: '#333333'} }}
+          sx={{ backgroundColor: '#3F3131', padding: '15.5px 28px', '&:hover': {backgroundColor: '#423939'} }}
           onClick={handleGuess}
           disabled={gameStatus !== null}
         >
-          <Typography>Guess</Typography>
+          <Typography variant="body2" fontSize={15}>Guess</Typography>
         </Button>
       </Box>
       <PuzzleModal open={modalOpen} onClose={closeModal} gameStatus={gameStatus} />

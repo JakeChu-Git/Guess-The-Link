@@ -36,11 +36,11 @@ export default function RootLayout({ children }) {
           <CssBaseline />
           <AppBar position="static" sx={{ backgroundColor: '#fcfaf7', boxShadow: '1', padding: '0.8rem' }}>
             <Toolbar>
-              <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontSize: 29 }} color={'black'}>
+              <Typography variant="h4" component="div" sx={{ flexGrow: 1, fontSize: 29 }} color={'#3F3131'}>
                 GUESS THE LINK
               </Typography>
               <IconButton onClick={handleHelpModalOpen}>
-                <HelpOutline sx={{ color: 'black', height: '45px', width: '45px' }} />
+                <HelpOutline sx={{ color: '#3F3131', height: '45px', width: '45px' }} />
               </IconButton>
             </Toolbar>
             <Modal open={helpModalOpen} onClose={handleHelpModalClose}>
@@ -54,13 +54,13 @@ export default function RootLayout({ children }) {
                   height: '68.5%',
                   maxWidth: 600,
                   overflowY: 'auto',
-                  bgcolor: '#fcfaf7',
+                  bgcolor: '#ffffff',
                   boxShadow: 24,
                   p: 4,
                 }}
               >
                 <IconButton sx={{ position: 'absolute', top: 8, right: 8 }} onClick={handleHelpModalClose}><Close /></IconButton>
-                <Typography variant="h4" gutterBottom> How to Play! 🧐 </Typography>
+                <Typography variant="h4" color={'black'} gutterBottom> How to Play! 🧐 </Typography>
                 <Typography variant="h5" gutterBottom>
                   Try to guess the common link that connects the 3 images on screen.
                 </Typography>
