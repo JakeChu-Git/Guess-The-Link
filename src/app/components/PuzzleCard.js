@@ -108,7 +108,7 @@ const PuzzleCard = () => {
           onClick={handleGuess}
           disabled={gameStatus !== null}
         >
-          <Typography variant="body2" fontSize={15}>Guess</Typography>
+          <Typography variant="body2" fontSize={16}>Guess</Typography>
         </Button>
       </Box>
       <PuzzleModal open={modalOpen} onClose={closeModal} gameStatus={gameStatus} />
