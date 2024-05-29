@@ -11,6 +11,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { HelpOutline } from '@mui/icons-material';
 import Close from '@mui/icons-material/Close';
 import './globals.css';
+import { Analytics } from "@vercel/analytics/react";
 
 export default function RootLayout({ children }) {
   const [helpModalOpen, setHelpModalOpen] = useState(false);
@@ -117,6 +118,7 @@ export default function RootLayout({ children }) {
             </Typography>
           </Box>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
