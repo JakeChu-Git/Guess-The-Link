@@ -28,8 +28,7 @@ Check out the live demo of Guess The Link: [https://guess-the-link.vercel.app](h
 
 To run Guess The Link locally, follow these steps:
 
-1. Clone the repository:
-git clone https://github.com/your-username/guess-the-link.git
+1. Clone the repository.
 
 2. Navigate to the project directory:
 cd guess-the-link
